@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Import fonts */
+@font-face {
+  font-family: HK Grotesk;
+  src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Regular.otf?v=1603136326027")
+    format("opentype");
+}
+@font-face {
+  font-family: HK Grotesk;
+  font-weight: bold;
+  src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Bold.otf?v=1603136323437")
+    format("opentype");
+}
+
+body {
+  padding: 50px;
+  font-family: HK Grotesk, sans-serif;
+  background: url("https://cdn.glitch.global/67afe40f-421f-46e7-8bcc-2b5b89a08319/tinyblur.svg?v=1681513625629");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+p{
+  font-family: HK Grotesk, sans-serif;
+}
+
+li{
+  list-style: none;
+}
+
+/* .sites{
+  margin: 0px auto;
+} */
+
+.intro{
+  position: absolute;
+  right: 50px;
+  bottom: 60px;
+  text-align: right;
+}
+
+img{
+  width: 500px;
+}
